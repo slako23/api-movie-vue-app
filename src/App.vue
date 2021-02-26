@@ -1,7 +1,7 @@
 <template>
     <header>
       <router-link to="/">
-      <h1><span>Amadi</span>Movies</h1>
+      <h1><span>Amadi</span>Flix</h1>
     </router-link>
   </header>
   <main>
@@ -16,11 +16,11 @@
   box-sizing: border-box;
   font-family: 'Fira Sans', sans-serif;
   &::selection {
-    background: transparentize(#42B883, 0.5);
+    background: transparentize(#FF0000, 0.5);
   }
 }
 body {
-  background-color: #35495E;
+  background-color: #000;
 }
 a {
   text-decoration: none;
@@ -30,13 +30,14 @@ header {
   align-items: center;
   justify-content: center;
   padding: 10px 16px;
-  background-color: #2C3D4E;
+  background-color: #000;
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #FF0000;
   h1 {
     color: #FFF;
     font-size: 28px;
     span {
-      color: #42B883;
+      color: #FF0000;
     }
   }
 }
